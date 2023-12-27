@@ -30,8 +30,9 @@ Repository with projects for beginners using Angular
 <p>App to locate houses based on a specific city, with the return of some data, in addition to component was also used interface in the creation of the page.</p>
 
 Credits:
-<div>
-    <a href="https://codelabs.developers.google.com/introduction-to-angular?hl=pt-br#0">Codelab - Introduction to angular</a>
-    <a href="https://youtu.be/qxchrt04bTA?si=L2UXHwJSVlGTFtlX">Introduction to angular(video)</a>
-    <a href="https://www.knowledgehut.com/blog/web-development/install-angular-cli">Installing and configuring angularCLI</a>
-</div>
+
+<a href="https://codelabs.developers.google.com/introduction-to-angular?hl=pt-br#0">Codelab - Introduction to angular</a>
+
+<a href="https://youtu.be/qxchrt04bTA?si=L2UXHwJSVlGTFtlX">Introduction to angular(video)</a>
+
+<a href="https://www.knowledgehut.com/blog/web-development/install-angular-cli">Installing and configuring angularCLI</a>
