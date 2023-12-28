@@ -1,0 +1,73 @@
+header {
+  display: grid;
+  place-items: center;
+  margin-bottom: 60px;
+  font-weight: bold;
+  font-size: 20pt;
+  border-bottom: solid .5px rgb(223, 223, 223);
+  color: #050e2e;
+}
+header {
+  padding-left: 50px;
+}
+header > img {
+  width: 200pt;
+  height: 200pt;
+}
+section {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  margin-left: 50px;
+  padding-top: 20px;
+  width: 50%
+}
+
+article, p {
+  color: #202845;
+}
+img {
+  border-radius: 5px;
+  width: 100%;
+}
+article > p:nth-child(n+2) {
+  font-size: 15pt;
+}
+
+article > p:first-of-type {
+  font-size: 40pt;
+  font-weight: bold;
+}
+
+article > p:nth-of-type(2) {
+  font-size: 30pt;
+  margin-bottom: 15px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+}
+
+/* Adicione a estilização padrão dos links */
+li a {
+  text-decoration: none; /* Remove o sublinhado padrão */
+  color: #000; /* Define a cor do texto normal */
+  transition: color 0.3s; /* Adiciona uma transição suave na mudança de cor */
+}
+
+/* Adiciona estilos quando o mouse está sobre o link */
+li a:hover {
+  color: #1455b6; /* Define a cor do texto durante o hover */
+}
+
+li a.active {
+  color: #1455b6; /* Define a cor do texto quando o link está ativo */
+}

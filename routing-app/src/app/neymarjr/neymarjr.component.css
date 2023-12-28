@@ -1,0 +1,52 @@
+header {
+  display: grid;
+  place-items: center;
+  margin-bottom: 60px;
+  font-weight: bold;
+  font-size: 20pt;
+  border-bottom: solid .5px rgb(223, 223, 223);
+  color: #050e2e;
+}
+header {
+  padding-left: 50px;
+}
+header > img {
+  width: 50%;
+}
+section {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  margin-left: 50px;
+  padding-top: 20px;
+  width: 50%
+}
+
+article, p {
+  color: #202845;
+  font-size: x-large;
+  font-weight: lighter;
+  margin-right: 5px;
+}
+img {
+  border-radius: 5px;
+  width: 100%;
+}
+article > p:nth-child(n+2) {
+  font-size: 15pt;
+}
+
+article > p:first-of-type {
+  font-size: 40pt;
+}
+
+article > p:nth-of-type(2) {
+  font-size: 30pt;
+  margin-bottom: 15px;
+}

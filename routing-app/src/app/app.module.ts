@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NeymarjrComponent } from './neymarjr/neymarjr.component';
 import { MessiComponent } from './messi/messi.component';
+import { MbappeComponent } from './mbappe/mbappe.component';
+import { RonaldoComponent } from './ronaldo/ronaldo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NeymarjrComponent,
-    MessiComponent
+    MessiComponent,
+    MbappeComponent,
+    RonaldoComponent
   ],
   imports: [
     BrowserModule,
